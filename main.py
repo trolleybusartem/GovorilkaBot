@@ -48,7 +48,6 @@ async def send_file(message: aiogram.types.Message):
     with open('mp3', 'rb') as audio_file:
         audio_data = audio_file.read()
     await bot.send_audio(chat_id=message.chat.id, audio=audio_data, title='аудио123')
-    os.remove('mp3')
 
 if __name__ == '__main__':
    executor.start_polling(dp, skip_updates=False)
