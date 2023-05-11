@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, executor
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import os
 
-API_TOKEN = '6203385209:AAGE6opfT7GF-l2Vnldcm6bNReMlRh4po5w'
+API_TOKEN = ''
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 sound = pyttsx3.init()
