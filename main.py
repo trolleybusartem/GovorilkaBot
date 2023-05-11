@@ -1,3 +1,5 @@
+import aiogram
+import pyttsx3
 from aiogram import Bot, Dispatcher, executor
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import os
